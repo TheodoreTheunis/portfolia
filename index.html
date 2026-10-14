@@ -1,0 +1,504 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Explore web development projects, portfolio website services, and digital experiences by an independent self-taught developer."
+  >
+
+  <meta name="theme-color" content="#f7f7f2">
+
+  <title>Portfolia — Independent Web Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+
+      <a class="logo" href="#home" aria-label="Portfolia home">
+        portfolia<span>.</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-links"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a class="nav-contact" href="#contact">
+          Let's talk <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero container" id="home">
+
+      <div class="hero-content">
+
+        <div class="availability">
+          <span class="availability-dot"></span>
+          Open to new projects
+        </div>
+
+        <p class="eyebrow">INDEPENDENT WEB DEVELOPER</p>
+
+        <h1>
+          I build digital
+          <span class="highlight">experiences.</span>
+        </h1>
+
+        <p class="hero-description">
+          I'm a self-taught developer focused on building clean,
+          useful and modern websites and web applications. I turn
+          ideas into digital products people can use.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">
+            Explore my work <span aria-hidden="true">↘</span>
+          </a>
+
+          <a class="button button-secondary" href="#contact">
+            Let's talk
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <span>Based in South Africa</span>
+          <span class="meta-divider"></span>
+          <span>Building for the web</span>
+        </div>
+
+      </div>
+
+      <div class="hero-visual" aria-label="Decorative portfolio design">
+
+        <div class="visual-topline">
+          <span>SELECTED WORK</span>
+          <span>2026 — PRESENT</span>
+        </div>
+
+        <div class="visual-main">
+          <div class="visual-orbit orbit-one"></div>
+          <div class="visual-orbit orbit-two"></div>
+
+          <div class="visual-center">
+            <span class="visual-star">✳</span>
+            <span>IDEAS INTO</span>
+            <strong>REALITY</strong>
+          </div>
+
+          <div class="floating-card floating-card-top">
+            <span class="floating-icon">✦</span>
+            <span>Creative thinking</span>
+          </div>
+
+          <div class="floating-card floating-card-bottom">
+            <span class="status-indicator"></span>
+            <span>Always learning</span>
+          </div>
+        </div>
+
+        <div class="visual-bottomline">
+          <span>DESIGN</span>
+          <span>DEVELOPMENT</span>
+          <span>DETAIL</span>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Small introduction strip -->
+    <section class="intro-strip">
+      <div class="container intro-strip-inner">
+        <p>Turning ideas into useful digital products.</p>
+        <span aria-hidden="true">✳</span>
+        <p>Built with curiosity and attention to detail.</p>
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section class="section container" id="work">
+
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">A LOOK AT MY WORK</p>
+          <h2>Selected projects<span class="highlight">.</span></h2>
+        </div>
+
+        <p class="section-description">
+          Real projects, practical ideas and a commitment to
+          getting better with every build.
+        </p>
+      </div>
+
+      <div class="project-grid">
+
+        <!-- Monevo project -->
+        <article class="project-card">
+
+          <a
+            class="project-art monevo-art"
+            href="https://theodoretheunis.github.io/monevo/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Open the Monevo live project"
+          >
+            <div class="monevo-window">
+
+              <div class="mock-window-header">
+                <div class="window-dots">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <span class="mock-window-label">PERSONAL FINANCE</span>
+              </div>
+
+              <div class="mock-dashboard">
+
+                <div class="mock-brand">
+                  monevo<span>.</span>
+                </div>
+
+                <p class="mock-muted">Your money, in perspective.</p>
+
+                <div class="mock-balance">
+                  <span>TOTAL SPENT</span>
+                  <strong>Track your spending.</strong>
+                  <div class="mock-balance-bottom">
+                    <span>Understand your habits</span>
+                    <span class="mock-arrow">↗</span>
+                  </div>
+                </div>
+
+                <div class="mock-lower-grid">
+
+                  <div class="mock-stat">
+                    <span class="mock-muted">BUDGET</span>
+                    <div class="mock-mini-bars">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+
+                  <div class="mock-stat">
+                    <span class="mock-muted">OVERVIEW</span>
+                    <div class="mock-progress">
+                      <span></span>
+                    </div>
+                    <span class="mock-small-text">Stay in control</span>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <span class="art-corner-label">01 / FINANCE APP</span>
+          </a>
+
+          <div class="project-info">
+            <div>
+              <h3>Monevo</h3>
+              <p>
+                A personal expense tracker designed to make
+                managing money simpler.
+              </p>
+            </div>
+            <span class="project-number">01</span>
+          </div>
+
+          <div class="project-tags">
+            <span>Web App</span>
+            <span>Finance</span>
+            <span>JavaScript</span>
+          </div>
+
+          <div class="project-actions">
+            <a
+              class="project-button project-button-primary"
+              href="https://theodoretheunis.github.io/monevo/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Live Project <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+
+        </article>
+
+        <!-- Future project placeholder -->
+        <article class="project-card">
+
+          <div class="project-art concept-art">
+            <div class="concept-content">
+              <span class="concept-symbol">✳</span>
+              <span class="concept-overline">YOUR NEXT BUILD</span>
+              <h3>Something<br>new is coming.</h3>
+              <span class="concept-footer">IDEA → DESIGN → BUILD</span>
+            </div>
+            <span class="art-corner-label">02 / IN PROGRESS</span>
+          </div>
+
+          <div class="project-info">
+            <div>
+              <h3>Next project</h3>
+              <p>
+                A space for the next useful product, experiment
+                or website I build.
+              </p>
+            </div>
+            <span class="project-number">02</span>
+          </div>
+
+          <div class="project-tags">
+            <span>In progress</span>
+            <span>Web development</span>
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- About -->
+    <section class="about-section" id="about">
+
+      <div class="container about-grid">
+
+        <div class="about-heading">
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2>Curious by nature.<br><span class="highlight">Builder by choice.</span></h2>
+        </div>
+
+        <div class="about-content">
+
+          <p class="about-lead">
+            I believe the best way to learn technology is to
+            build something real.
+          </p>
+
+          <p>
+            I'm a self-taught developer building practical projects
+            while growing my skills in web development. My current
+            project is Monevo, a personal expense tracker.
+          </p>
+
+          <p>
+            I enjoy solving problems, experimenting with ideas and
+            creating digital experiences that are straightforward
+            to use. Every project is an opportunity to learn,
+            improve and build something better.
+          </p>
+
+          <div class="skills-list">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>GitHub</span>
+            <span>Responsive Design</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Services -->
+    <section class="section container" id="services">
+
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">HOW I CAN HELP</p>
+          <h2>Simple websites.<br>Clear purpose<span class="highlight">.</span></h2>
+        </div>
+
+        <p class="section-description">
+          Practical web solutions for people and small businesses
+          that want to build a stronger online presence.
+        </p>
+      </div>
+
+      <div class="services-grid">
+
+        <article class="service-card">
+          <div class="service-top">
+            <span class="service-icon">↗</span>
+            <span class="service-index">01</span>
+          </div>
+
+          <h3>Personal portfolios</h3>
+
+          <p>
+            A professional website to showcase your skills,
+            projects, experience and achievements.
+          </p>
+
+          <div class="service-bottom">
+            <span>Starting from</span>
+            <strong>R700</strong>
+          </div>
+        </article>
+
+        <article class="service-card service-card-featured">
+          <div class="service-top">
+            <span class="service-icon">✳</span>
+            <span class="service-index">02</span>
+          </div>
+
+          <h3>Small business websites</h3>
+
+          <p>
+            A clean online home for your business, with your
+            services, contact details and a clear call to action.
+          </p>
+
+          <div class="service-bottom">
+            <span>Starting from</span>
+            <strong>R1,000</strong>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-top">
+            <span class="service-icon">⌘</span>
+            <span class="service-index">03</span>
+          </div>
+
+          <h3>Website improvements</h3>
+
+          <p>
+            Help with layout, responsive styling, content
+            presentation and small front-end enhancements.
+          </p>
+
+          <div class="service-bottom">
+            <span>Quoted per project</span>
+            <strong>Let's talk</strong>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="pricing-note">
+        Prices are starting estimates, not binding quotes.
+        Final costs depend on features, content and project scope.
+      </p>
+
+    </section>
+
+    <!-- Call to action -->
+    <section class="contact-section" id="contact">
+
+      <div class="container contact-inner">
+
+        <div class="contact-copy">
+          <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+
+          <h2>
+            Let's make<br>
+            something <span class="highlight">useful.</span>
+          </h2>
+
+          <p>
+            Need a portfolio or a website for your business?
+            Tell me what you're planning, and we can discuss
+            what would work for you.
+          </p>
+
+          <a
+            class="button button-light"
+            href="mailto:theunistheodore8@gmail.com?subject=Website%20project%20enquiry"
+          >
+            Email about a project <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+        <div class="contact-details">
+
+          <div class="contact-detail">
+            <span class="contact-label">EMAIL</span>
+            <a href="mailto:theunistheodore8@gmail.com">
+              theunistheodore8@gmail.com
+            </a>
+          </div>
+
+          <div class="contact-detail">
+            <span class="contact-label">LOCATION</span>
+            <p>South Africa</p>
+          </div>
+
+          <div class="contact-detail">
+            <span class="contact-label">CURRENT FOCUS</span>
+            <p>Web development & digital projects</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+
+    <div class="container footer-inner">
+
+      <a class="logo footer-logo" href="#home">
+        portfolia<span>.</span>
+      </a>
+
+      <p>Built with curiosity and a lot of coffee.</p>
+
+      <p class="copyright">
+        © <span id="current-year">2026</span> Portfolia
+      </p>
+
+    </div>
+
+  </footer>
+
+</body>
+</html>
